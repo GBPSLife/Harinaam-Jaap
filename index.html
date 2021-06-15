@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,user-scalable = no">
+  <title>Harinam Jaap</title>
+  <link rel="icon" href="gbps.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0847c5374e.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <audio controls loop style="display: none;">
+    <source src="audio.mp3" type="audio/mpeg" />
+  </audio>
+  <img id="damodar" onclick="imagezoom()" src="damodar.jpeg" alt="">
+  <img id="malaimg" src="mala.png" alt="">
+  <img id="gbpsimg" src="gbps.png" alt="">
+  <span id="mahamantra1">हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे।</span>
+  <span id="mahamantra2">हरे राम हरे राम राम राम हरे हरे।</span>
+  <span id="audiocount">0<span>Bead Count</span></span>
+  <span id="malacount">0<span>Mala Count</span></span>
+  <div id="button" onclick="clicked()"><i class="fas fa-play"></i></div>
+  <div id="reset" onclick="reset()"><i class="fas fa-sync"></i></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

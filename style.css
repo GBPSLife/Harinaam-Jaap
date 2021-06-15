@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    user-select: none;
+    background: black;
+    background: linear-gradient(0deg, black 0%, #2114b3 100%);
+}
+
+#button {
+    background-color: #65004e;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    transform: scale(2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px #65004e;
+}
+
+#reset {
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 70px;
+    bottom: 100px;
+    transform: scale(2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#damodar {
+    position: absolute;
+    top: 36%;
+    transform: translateY(-50%);
+    height: 280px;
+    border-radius: 50px;
+}
+
+#malaimg {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-20%);
+    height: 60px;
+}
+
+#gbpsimg {
+    position: absolute;
+    top: 30px;
+    transform: translateY(-20%);
+    height: 60px;
+}
+
+#audiocount,
+#malacount {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#audiocount span,
+#malacount span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#audiocount {
+    right: 30px;
+}
+
+#malacount {
+    left: 30px;
+}
+
+#mahamantra1 {
+    position: absolute;
+    bottom: 210px;
+    font-size: 22px;
+}
+
+#mahamantra2 {
+    position: absolute;
+    bottom: 180px;
+    font-size: 22px;
+}
